@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/pt2d.h
+
+../include/robot.h
+pt2d.h
+../include/pt2d.h
+
+../include/world.h
+iostream
+-
+thread
+-
+chrono
+-
+vector
+-
+map
+-
+robot.h
+../include/robot.h
+
+/home/nobug-ros/Desktop/carbon_test2/src/main.cpp
+world.h
+/home/nobug-ros/Desktop/carbon_test2/src/world.h
+
+/home/nobug-ros/Desktop/carbon_test2/src/pt2d.cpp
+pt2d.h
+/home/nobug-ros/Desktop/carbon_test2/src/pt2d.h
+
+/home/nobug-ros/Desktop/carbon_test2/src/robot.cpp
+robot.h
+/home/nobug-ros/Desktop/carbon_test2/src/robot.h
+
+/home/nobug-ros/Desktop/carbon_test2/src/world.cpp
+world.h
+/home/nobug-ros/Desktop/carbon_test2/src/world.h
+

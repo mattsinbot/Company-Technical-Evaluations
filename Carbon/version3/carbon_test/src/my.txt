@@ -1,0 +1,6 @@
+g++ -c -std=c++11 -I ../include -o ptd.o pt2d.cpp
+g++ -c -std=c++11 -I ../include -o rbt.o Robot.cpp
+g++ -c -std=c++11 -I ../include -o wrld.o World.cpp
+g++ -c -std=c++11 -I ../include -o oldmain.o main.cpp
+g++ -std=c++11 -I ../include rbt.o wrld.o oldmain.o -o main -pthread
+rm -f core *.o
