@@ -1,3 +1,0 @@
-/home/nobug-ros/Desktop/roboagents/build/CMakeFiles/edit_cache.dir
-/home/nobug-ros/Desktop/roboagents/build/CMakeFiles/roboagents.dir
-/home/nobug-ros/Desktop/roboagents/build/CMakeFiles/rebuild_cache.dir
